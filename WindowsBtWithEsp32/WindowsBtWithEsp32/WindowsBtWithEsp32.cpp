@@ -12,6 +12,7 @@ Bluetooth programming with Windows sockets - https://docs.microsoft.com/en-us/wi
 #include <Winsock2.h>
 #include <Ws2bth.h>
 #include <BluetoothAPIs.h>
+#pragma comment(lib, "Bthprops.lib")
 
 BTH_ADDR esp32BtAddress;
 SOCKADDR_BTH btSocketAddress;
